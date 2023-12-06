@@ -315,7 +315,7 @@ export const projects = [
     description:
       "Sistema de vendas e controle gerencial, interligada com o erp Sankhya, ferramenta online e offline com o uso de pwa",
     image:
-      "https://raw.githubusercontent.com/David-Ric/portifolio_david_ric/main/src/images/export.png",
+      "https://raw.githubusercontent.com/David-Ric/portifolio_david_ric/main/src/images/alyne.png",
     tags: [
       "React js",
       "Next js",
