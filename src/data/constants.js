@@ -338,9 +338,9 @@ export const projects = [
   title: "appeplus",
   date: "Mar 2022 - Dez 2022",
   description:
-    "Sistema de vendas e controle gerencial, interligada com o erp Sankhya, ferramenta online e offline com o uso de pwa",
+    "sistema de imobiliária digital para proprietários, compradores e corretores",
   image:
-    "../images/alyne.png",
+    "https://raw.githubusercontent.com/David-Ric/portifolio_david_ric/main/src/images/appeplus.png",
   tags: [
     "React js",
     "TypeScript",
