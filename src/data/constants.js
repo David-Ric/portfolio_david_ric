@@ -12,7 +12,7 @@ export const Bio = {
     "Desenvolvedor fullstack com mais de 5 anos de experiência no mercado, apaixonado por tudo que me permite criar, seja codando, desenhando,pintando ou cantando,sempre dou o melhor, pois em tudo que faço coloco meu coração.",
   github: "https://github.com/David-Ric",
   resume:
-    "https://drive.google.com/file/d/16RJXinbqiuVw3qm7hnamqawgzBWZf7Aq/view?usp=sharing",
+    "https://drive.google.com/file/d/1hPcOg_YhrpgwMZf2NzvOibNsj-SUMMaf/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/david-ricardo-404255216/",
 };
 
