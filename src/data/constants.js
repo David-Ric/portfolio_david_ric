@@ -253,7 +253,7 @@ export const experiences = [
     role: "Analista de sistema | Desenvolvedor Web / Desktop",
     company: "Edmilson Abreu Bernardo",
     date: "jun de 2020 - mar de 2022",
-    desc: "Desenvolvimento de ferramenta web/mobile para Imobiliaria Eletrônica",
+    desc: "Desenvolvimento de site e sistema de controle de estoque",
     skills: [
       "Delphi 7",
       "Angular",
