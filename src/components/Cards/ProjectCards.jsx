@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import imgem from '../../images/alyne.png'
 
 
 const Button = styled.button`
@@ -122,7 +123,7 @@ const Avatar = styled.img`
     border: 3px solid ${({ theme }) => theme.card};
 `
 
-const ProjectCards = ({project,setOpenModal}) => {
+const ProjectCards = ({project, setOpenModal}) => {
     return (
         <Card onClick={() => setOpenModal({state: true, project: project})}>
             <Image src={project.image}/>
@@ -137,12 +138,12 @@ const ProjectCards = ({project,setOpenModal}) => {
                 <Description>{project.description}</Description>
             </Details>
             <Members>
-                {project.member?.map((member) => (
-                    <Avatar src={member.img}/>
-                ))}
+                {/* {project.member?.map((member) => ( */}
+                    {/* <Avatar src={member.img}/> */}
+                {/* ))} */}
             </Members>
             {/* <Button>View Project</Button> */}
-        </Card>
+        </Card>  
     )
 }
 

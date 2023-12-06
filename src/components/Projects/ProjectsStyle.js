@@ -39,6 +39,14 @@ margin-top: 20px;
   }
 `;
 
+export const Div = styled.div`
+display: flex;
+  color: ${({ theme }) => theme.text_primary};
+  @media (max-width: 768px) {
+     flex-direction: column;
+  }
+`;
+
 export const Desc = styled.div`
     font-size: 18px;
     text-align: center;

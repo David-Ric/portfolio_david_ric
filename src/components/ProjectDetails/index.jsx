@@ -2,6 +2,7 @@ import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
 import { Modal } from '@mui/material';
 import React from 'react'
 import styled from 'styled-components'
+import Imgem from '../../images/alyne.png'
 
 const Container = styled.div`
 width: 100%;
@@ -197,7 +198,7 @@ const index = ({ openModal, setOpenModal }) => {
                         }}
                         onClick={() => setOpenModal({ state: false, project: null })}
                     />
-                    <Image src={project?.image} />
+                    <Image src={Imgem} />
                     <Title>{project?.title}</Title>
                     <Date>{project.date}</Date>
                     <Tags>
@@ -227,7 +228,7 @@ const index = ({ openModal, setOpenModal }) => {
                     )}
                     <ButtonGroup>
                         <Button dull href={project?.github} target='new'>View Code</Button>
-                        <Button href={project?.webapp} target='new'>View Live App</Button>
+                        <Button href={project?.webapp} target='new'>Link do App</Button>
                     </ButtonGroup>
                 </Wrapper>
             </Container>
